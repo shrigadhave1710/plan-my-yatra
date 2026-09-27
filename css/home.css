@@ -1,9 +1,22 @@
 .main-hero-section {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.272)),
     url(./../images/home-bg-img.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
   opacity: 0.8;
+}
+
+.sub-content{
+  font-size: 70px;
+  font-weight: 700;
+  color:orangered;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+.heading-1 {
+  color: white;
+   
 }
