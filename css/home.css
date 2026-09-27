@@ -1,7 +1,9 @@
-.main-hero-section{
- background-image: url(./../images/Taj\ Mahal.jpg);
- background-position:center;
- background-size: cover;
- height: 100vh;
- 
+.main-hero-section {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./../images/home-bg-img.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.8;
 }
