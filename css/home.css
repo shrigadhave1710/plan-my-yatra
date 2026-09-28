@@ -1,6 +1,6 @@
 .main-hero-section {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.272)),
+background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./../images/home-bg-img.jpg);
   background-position: center;
   background-size: cover;
@@ -11,7 +11,6 @@
 .main-content {
   margin-left: 10%;
   margin-top: 60px;
-  mar
 }
 
 .highlighted-main-content {
@@ -122,11 +121,12 @@ font-size: 40px;
 
 
 
-.destination-section-items {
+.destination-section-container {
   display: flex;
   flex-direction: row;
   gap: 30px;
   margin-top: 20px;
+
 }
 
 .destination-section-items-1 {
@@ -136,20 +136,26 @@ font-size: 40px;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./../images/Taj\ mahal\ photo.jpg);
-  height: 400px;
-  width: 400px;
-
+  height: 350px;
+  width: 350px;
+  border-radius: 25px;
 }
 
+.destination-section-items-2{
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+}
 .destination-section-items-2-sub-1 {
   background-size: cover;
   background-position: center;
   align-items: center;
+  border-radius: 25px;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./../images/Kerala.jpg);
-  height: 400px;
-  width: 400px;
+  height: 150px;
+  width: 200px;
 
 }
 
@@ -157,9 +163,41 @@ font-size: 40px;
   background-size: cover;
   background-position: center;
   align-items: center;
+  border-radius: 25px;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./../images/Goa.jpg);
-  height: 400px;
-  width: 400px;
+  height: 150px;
+  width: 200px;
+}
+
+.destination-section-items-3{
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+}
+
+.destination-section-items-3-sub-3 {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  border-radius: 25px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./../images/Kerala.jpg);
+  height: 150px;
+  width: 200px;
+
+}
+
+.destination-section-items-3-sub-3 {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  border-radius: 25px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./../images/Goa.jpg);
+  height: 150px;
+  width: 200px;
 }
