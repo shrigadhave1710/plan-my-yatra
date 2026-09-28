@@ -7,45 +7,51 @@
   height: 120vh;
   opacity: 0.8;
 }
-.main-content{
- margin-left: 10%;
- margin-top: 60px;
+
+.main-content {
+  margin-left: 10%;
+  margin-top: 60px;
   mar
 }
-.highlighted-main-content{
+
+.highlighted-main-content {
   color: #FFF2A0;
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
 }
-.highlighted-text{
+
+.highlighted-text {
   padding-right: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap:8px;
+  gap: 8px;
 }
-.sub-content{
+
+.sub-content {
   font-size: 70px;
   font-weight: 700;
-  color:#ff4500;
+  color: #ff4500;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
+
 .heading-1 {
   color: white;
-   
+
 }
-.main-info{
+
+.main-info {
   color: white;
   font-size: 20px;
   width: 700px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
- 
-.destination-container{
+
+.destination-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -56,20 +62,22 @@
   padding: 20px;
   border-radius: 30px;
 }
-.destination-container-items{
+
+.destination-container-items {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
 }
 
-.destination-input{
+.destination-input {
   border: none;
   outline: none;
   font-size: 13px;
   justify-content: space-evenly;
 }
-.recomomdations{
+
+.recomomdations {
   margin-top: 30px;
   font-size: 12px;
   color: white;
@@ -78,55 +86,80 @@
   flex-direction: row;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.recomomdations-items{
+
+.recomomdations-items {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   margin-top: 10px;
   gap: 20px;
   align-items: center;
 }
-.recomomdations-count{
+
+.recomomdations-count {
   font-size: 30px;
   font-weight: 700;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-  /* destination section */
+ /* destination section */
 
-.destination-section{
-    margin-top:120px;
-    color:black;
-    font-size: 60px;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.destination-section {
+  margin-top: 120px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-  }
-  .destination-section-heading{
-    align-items: center;
-    font-size: 30px; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-   
-  .destination-section-container{
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./../images/Taj\ mahal\ photo.jpg);
-    height:400px;
-    width:400px;
-  }
+}
 
-.destination-section-items-2-sub-1{
-   background-size: cover;
-   background-position: center;
-   align-items: center;
+.destination-section-heading {
+font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.destination-section-items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.destination-section-items-1 {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./../images/Taj\ mahal\ photo.jpg);
-    height:400px;
-    width:400px;
+  height: 400px;
+  width: 400px;
+
+}
+
+.destination-section-items-2-sub-1 {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./../images/Kerala.jpg);
+  height: 400px;
+  width: 400px;
+
+}
+
+.destination-section-items-2-sub-2 {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./../images/Goa.jpg);
+  height: 400px;
+  width: 400px;
 }
